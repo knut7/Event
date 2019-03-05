@@ -23,7 +23,7 @@ namespace Event;
  * attached to the same event once, minus an edge case or two that are not
  * worth fussing over.
  */
-class EventHandler 
+class EventHandler implements InterfaceEventHandler
 {
     protected $events = [];
 
