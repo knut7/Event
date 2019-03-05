@@ -17,7 +17,7 @@
  */
 
 namespace Event\Event;
-
+use Event\Event\InterfaceEventHandler; 
 /**
  * EventHandler enforces that a specific instance of a listener can only be
  * attached to the same event once, minus an edge case or two that are not
