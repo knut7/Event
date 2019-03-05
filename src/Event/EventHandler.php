@@ -16,7 +16,7 @@
  * @version   1.0.2
  */
 
-namespace Event\Event;
+namespace Event;
 
 /**
  * EventHandler enforces that a specific instance of a listener can only be

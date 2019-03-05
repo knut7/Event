@@ -1,6 +1,6 @@
 <?php
 
-namespace Event\Event;
+namespace Event;
 
 interface InterfaceEventHandler
 {
