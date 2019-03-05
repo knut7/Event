@@ -1,0 +1,33 @@
+{
+    "name": "knut7/Event",
+    "type": "library",
+    "description": "This is a package Event Handler",
+    "keywords": [
+        "Event",
+        "mvc", "event Handler", "eventHandler"
+    ],
+    "homepage": "https://github.com/zebedeu",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcio Zebede",
+            "email": "marciozebedeu@gmail.com",
+            "homepage": "http://artphoweb.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+
+    },
+     "autoload": {
+        "psr-4": {
+            "Event\\": "src/Event/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Event\\Tests\\": "tests/"
+        }
+    }
+}
